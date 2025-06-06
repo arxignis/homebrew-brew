@@ -2,9 +2,11 @@
 # frozen_string_literal: true
 
 class Arxignis < Formula
+  name "Arxignis"
   desc "Headless AppSec Security platform"
   homepage "https://arxignis.com"
   version "0.0.1"
+  license "Apache-2.0"
   version_scheme 1
 
   on_macos do
@@ -48,6 +50,6 @@ class Arxignis < Formula
   end
 
   test do
-    system bin/"ax", "version"
+    system bin/"ax", "--version"
   end
 end
