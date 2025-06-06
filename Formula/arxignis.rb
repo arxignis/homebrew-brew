@@ -6,6 +6,8 @@ class Arxignis < Formula
   homepage "https://arxignis.com"
   version "0.0.1"
   license "Apache-2.0"
+  url "https://github.com/arxignis/cli/releases/download/v0.0.1/ax.darwin-arm64.tar.gz"
+  sha256 "d412126e7e15d911589e7e543a82c207b10b2fd9f6c22f28b7c0dfd182cde68c"
   version_scheme 1
 
   on_macos do
