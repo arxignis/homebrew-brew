@@ -2,7 +2,6 @@
 # frozen_string_literal: true
 
 class Arxignis < Formula
-  name "Arxignis"
   desc "Headless AppSec Security platform"
   homepage "https://arxignis.com"
   version "0.0.1"
