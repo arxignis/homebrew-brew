@@ -4,4 +4,4 @@ set -ex
 
 brew update
 brew install Formula/arxignis.rb
-ax help
+ax --version

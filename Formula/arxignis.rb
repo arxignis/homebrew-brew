@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Arxignis < Formula
   desc "Headless AppSec Security platform"
   homepage "https://arxignis.com"
@@ -33,9 +36,15 @@ class Arxignis < Formula
     end
   end
 
-  def caveats; <<~EOS
+  def caveats
+    <<~EOS
+      Arxignis CLI is installed at #{bin}/ax.
+      To get started, run:
+        ax --help
 
-  EOS
+      For more information, visit:
+        https://arxignis.com
+    EOS
   end
 
   test do
